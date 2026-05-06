@@ -33,3 +33,7 @@ Output:
 t1 = a ^ 2
 t2 = b * c
 t3 = t1 + t2
+
+Catatan: Implementasi operator ^ pada versi ini bersifat left-associative. Dalam teori compiler, operator ini seharusnya right-associative, namun tidak mempengaruhi tujuan utama.
+
+
